@@ -39,9 +39,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Matt T Elliott`,
+        short_name: `Matt`,
+        description: `I make things for the Web`,
         start_url: `/`,
         background_color: `#141821`,
         // This will impact how browsers show your PWA/website
