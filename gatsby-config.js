@@ -14,9 +14,23 @@ module.exports = {
     siteDescription: `Matt's Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@matt139`,
+    author: `@matttelliott`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-rss-feed`,
+      options: {
+        url: `https://gist.github.com/matttelliott.atom`,
+        name: `Gists`,
+        // Optional
+        // Read parser document: https://github.com/bobby-brennan/rss-parser#readme
+        // parserOption: {
+        //   customFields: {
+        //     item: ['itunes:duration']
+        //   }
+        // }
+      },
+    },
     {
       resolve: `@lekoarts/gatsby-theme-cara`,
       // See the theme's README for all available options
